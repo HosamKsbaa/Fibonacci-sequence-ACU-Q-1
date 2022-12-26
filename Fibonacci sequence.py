@@ -10,6 +10,16 @@ count = 0
 if nterms <= 0:
    print("Please enter a positive integer")
 # if there is only one term, return n1
+
+
+#NEW FEATURE check if the number of terms is valid    // NEW COMMENT
+if nterms == 1:
+    print ("Fibonacci sequence upto,nterms,";")
+    print(n1)
+
+
+
+#GENERATE Fibonacci sequence
 else:
     print("Fibonacci sequence:")
     while count < nterms:
