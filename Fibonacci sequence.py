@@ -1,11 +1,11 @@
 # Program to display the Fibonacci sequence up to n-th term
 print("hi ")
-nterms = int(input("How many terms? "))
-
+nterms = int(input("How many terms?"))
 # first two terms
 n1, n2 = 0, 1
 count = 0
 
+print("41910051")
 
 if nterms <= 0:
    print("Please enter a positive integer")
@@ -19,4 +19,3 @@ else:
         n1 = n2
         n2 = nth
         count += 1
- 
