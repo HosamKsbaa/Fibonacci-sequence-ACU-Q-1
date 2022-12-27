@@ -9,6 +9,11 @@ count = 0
 
 if nterms <= 0:
        print("Please enter a positive integer")
+if nterms == 1:
+       print("Fibonacci sequence:",nterms,":")
+       print(n1)
+
+       
 else:
     print("Fibonacci sequence:")
     while count < nterms:
