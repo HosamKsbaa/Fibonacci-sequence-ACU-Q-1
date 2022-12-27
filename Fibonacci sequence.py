@@ -20,4 +20,4 @@ else:
         n2 = nth
         count += 1
         print("abdalla shokralll")
- 
+ print("abdallah")
