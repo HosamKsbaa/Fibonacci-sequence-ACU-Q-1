@@ -7,8 +7,11 @@ n1, n2 = 0, 1
 count = 0
 
 
-if nterms <= 0:
-   print("Please enter a positive integer")
+if nterms==1:
+    print("Fibonacci sequance up to",nterms,":")
+    print(n1)
+elif nterms <= 0:
+       print("Please enter a positive integer")
 # if there is only one term, return n1
 else:
     print("Fibonacci sequence:")
@@ -19,4 +22,4 @@ else:
         n1 = n2
         n2 = nth
         count += 1
- 
+ #commit made by Ayman saad Amer
