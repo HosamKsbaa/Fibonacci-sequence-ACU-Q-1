@@ -6,7 +6,7 @@ nterms = int(input("How many terms? "))
 n1, n2 = 0, 1
 count = 0
 
-
+#old version
 if nterms <= 0:
    print("Please enter a positive integer")
 # if there is only one term, return n1
