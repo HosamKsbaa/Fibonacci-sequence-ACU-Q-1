@@ -7,6 +7,7 @@ nterms = int(input("How many terms? "))
 n1, n2 = 0, 1
 count = 0
 
+print("hi ")
 
 if nterms <= 0:
    print("Please enter a positive integer")
