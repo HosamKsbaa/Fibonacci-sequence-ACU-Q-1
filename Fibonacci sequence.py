@@ -10,7 +10,6 @@ count = 0
 if nterms == 1:
        print("Fibonacci sequence:",nterms,":")
        print(n1)
-# if there is only one term, return n1
 else:
     print("Fibonacci sequence:")
     while count < nterms:
