@@ -3,7 +3,7 @@
 nterms = int(input("How many terms? "))
 
 # first two terms
-n1, n2 = 0, 1
+sdfssdfgs
 count = 0
 
 # the new ft
